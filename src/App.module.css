@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black;
+   border-radius: 5px;
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+    color: black;
+    padding: 10px 10px;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+    font-size: 32px;
+}
+
+.correctAnswers {
+    color: green;
+}
+
+.startButton {
+    margin: 10px;
+}
+
+.resetButton {
+    margin: 10px;
+}
+
+ul li button:hover {
+    border: 2px solid black;
+}
+
+.result {
+    color: rgb(255, 5, 5);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+.nextButton {
+    background-color: grey;
+    width: auto;
+    color: black;
+}
+
+.nextButton:hover {
+    border: 2px solid black;
+}
